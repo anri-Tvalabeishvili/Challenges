@@ -1,3 +1,5 @@
+import time   #  შემოგვყავს ტაიმერი რათა დავითვალოთ გამოთვლაზე დახარჯული დრო
+start = time.time()
 
 
 prime_factors = []     # ვინახავთ ძირითად მარტივ გამყოფებს 
@@ -16,3 +18,6 @@ while True:
         break
 
 print( "largest prime factor is: " + str(max(prime_factors)))  # მარტივი გამყოფებიდან ვირჩევთ უდიდესს
+
+end = time.time()  
+print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს

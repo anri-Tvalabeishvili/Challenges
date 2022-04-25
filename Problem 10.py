@@ -1,5 +1,4 @@
-import time
-
+import time   #  შემოგვყავს ტაიმერი რათა დავითვალოთ გამოთვლაზე დახარჯული დრო
 start = time.time()
 
 
@@ -21,6 +20,5 @@ del list[-1]
 print(sum(list))  # ვიღებთ უკანასკნელ ციფრს ლისთიდან
 
 
-end = time.time()
-
-print( end- start)
+end = time.time()  
+print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს

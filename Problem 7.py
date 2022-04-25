@@ -1,5 +1,4 @@
-import time
-
+import time   #  შემოგვყავს ტაიმერი რათა დავითვალოთ გამოთვლაზე დახარჯული დრო
 start = time.time()
 
 
@@ -43,7 +42,5 @@ while prime_number < 10001:
  """
 
 
-
-end = time.time()
-
-print( end- start)
+end = time.time()  
+print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს

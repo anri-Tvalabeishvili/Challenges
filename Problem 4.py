@@ -1,3 +1,5 @@
+import time   #  შემოგვყავს ტაიმერი რათა დავითვალოთ გამოთვლაზე დახარჯული დრო
+start = time.time()
 
 palindromic_numbers = []   # ვქმნით სიას რათა შევინახოთ ყველა palindrom-ული რიცხვი 
 
@@ -10,3 +12,6 @@ for i in range(100,999):   # ვქმნით for-ლუპს პირვე
 
 
 print(max(palindromic_numbers)) # სიიდან ვიღებთ უდიდესს 
+
+end = time.time()  
+print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს

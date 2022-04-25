@@ -1,4 +1,7 @@
 from sympy import isprime
+import time   #  შემოგვყავს ტაიმერი რათა დავითვალოთ გამოთვლაზე დახარჯული დრო
+start = time.time()
+
 
 Quantity = 0    # მარტივი რიცხვების რაოდენობა
 Produce = 0     # a*b კოეფიციენტების ნამრალი
@@ -13,3 +16,6 @@ for a in range (-999, 1000):        # a განსაზღვურლია 
             Produce = a*b   
 
 print(Produce)
+
+end = time.time()  
+print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს

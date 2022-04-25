@@ -1,3 +1,5 @@
+import time   #  შემოგვყავს ტაიმერი რათა დავითვალოთ გამოთვლაზე დახარჯული დრო
+start = time.time()
 
 answer = {}     # ვქმნით დიქშინარის სადაც შევინახავთ ყველა რიცხვს თავისის ჭაჭვის სიგრძით
 
@@ -22,3 +24,7 @@ for new_number in range (1,1000000,2):      # ვიღებთ ყველა
  
 new_value = max(answer, key=answer.get)  # დიქშნარიდან ვიღებთ უდიდესი ჯაჭვის მქონე რიცხვის მნიშვნელობას
 print("Highest value from dictionary: " + new_value)
+
+
+end = time.time()  
+print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს
