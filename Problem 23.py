@@ -46,5 +46,4 @@ for k in range(len(abundant)):
 print(sum(all_numbers))     # ვკრიბავთ მთლიან ლისთს სადაც ყველა ის ციფრი რომელი მიიღება ორი abundant- რიცხვის შეკრებით, გატოლებულია 0-ის
 
 
-end = time.time()  
-print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს
+print("Calculation time:" , time.time() -start)     # ვპრინტავთ გამოთვალზე დახარჯულ დროს

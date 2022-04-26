@@ -23,5 +23,4 @@ new_value = max(answer, key=answer.get)  # ვირებთ მაქსიმ
 print(new_value) 
 
 
-end = time.time()  
-print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს
+print("Calculation time:" , time.time() -start)     # ვპრინტავთ გამოთვალზე დახარჯულ დროს

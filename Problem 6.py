@@ -18,5 +18,4 @@ answer =  sum_and_square  - square_and_sum  # ვაკლებთ ერმა
 
 print(answer)
 
-end = time.time()  
-print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს
+print("Calculation time:" , time.time() -start)     # ვპრინტავთ გამოთვალზე დახარჯულ დროს

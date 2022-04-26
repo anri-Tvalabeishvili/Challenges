@@ -13,5 +13,4 @@ for a in range(2,101):  # ვსანზღვრავთ a განსაზ
 
 print(len(answer))  # ვიგებთ ლისთის სიგრძეს ანუ იმას თუ რამდენი ელემენტია შიგნით
 
-end = time.time()  
-print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს
+print("Calculation time:" , time.time() -start)     # ვპრინტავთ გამოთვალზე დახარჯულ დროს

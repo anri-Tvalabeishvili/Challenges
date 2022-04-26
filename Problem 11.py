@@ -92,5 +92,4 @@ Up_Down()
 print(max(horizont))
 
 
-end = time.time()  
-print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს
+print("Calculation time:" , time.time() -start)     # ვპრინტავთ გამოთვალზე დახარჯულ დროს

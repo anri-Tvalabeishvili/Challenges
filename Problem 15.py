@@ -6,8 +6,7 @@ answer = int(m.factorial(40) / (m.factorial(20) * m.factorial(20)))
 
 print(answer)
 
-end = time.time()  
-print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს
+print("Calculation time:" , time.time() -start)     # ვპრინტავთ გამოთვალზე დახარჯულ დროს
 
 """ 
     ესაა სუფთა სტატისტიკური ამოცანა, მინიშნება არის შემდეგი

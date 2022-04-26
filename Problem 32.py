@@ -19,5 +19,4 @@ for i in range (1,100):     # ვიღებთ რეინჯებს
 print(sum(answer))
     
 
-end = time.time()  
-print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს
+print("Calculation time:" , time.time() -start)     # ვპრინტავთ გამოთვალზე დახარჯულ დროს

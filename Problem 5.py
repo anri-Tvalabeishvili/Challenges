@@ -27,5 +27,4 @@ for i in range(0, len(list)):   # ვიღებთ ჩანაცვლებ
 print(answer)
 
 
-end = time.time()  
-print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს
+print("Calculation time:" , time.time() -start)     # ვპრინტავთ გამოთვალზე დახარჯულ დროს

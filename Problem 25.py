@@ -11,5 +11,4 @@ while len(str(fibonachi[-1])) != 1000:   # ციკლი გავაგრძ
     
 print(len(fibonachi))       # ვიპოვოთ ლისთის სიგრძე რათა გავიგოთ მერამდენე ადგილზე დგას ბოლო 1000-წევრიანი რიცხვი
 
-end = time.time()  
-print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს
+print("Calculation time:" , time.time() -start)     # ვპრინტავთ გამოთვალზე დახარჯულ დროს

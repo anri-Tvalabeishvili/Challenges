@@ -19,5 +19,4 @@ while True:
 
 print( "largest prime factor is: " + str(max(prime_factors)))  # მარტივი გამყოფებიდან ვირჩევთ უდიდესს
 
-end = time.time()  
-print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს
+print("Calculation time:" , time.time() -start)     # ვპრინტავთ გამოთვალზე დახარჯულ დროს

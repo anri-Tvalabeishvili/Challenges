@@ -24,5 +24,4 @@ for i in Numbers:               # შეგროვებული ფიბო
 
 print(sum(even_numbers))    # ვკრიბავთ ყველა იმ ლუწ ბიბონაჩის რიცხვს, რომელიც გვხვდება  4-მილიონამდე 
 
-end = time.time()  
-print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს
+print("Calculation time:" , time.time() -start)     # ვპრინტავთ გამოთვალზე დახარჯულ დროს

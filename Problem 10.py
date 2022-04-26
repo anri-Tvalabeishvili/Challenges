@@ -20,5 +20,4 @@ del list[-1]
 print(sum(list))  # ვიღებთ უკანასკნელ ციფრს ლისთიდან
 
 
-end = time.time()  
-print(end-start)    # ვპრინტავთ გამოთვალზე დახარჯულ დროს
+print("Calculation time:" , time.time() -start)     # ვპრინტავთ გამოთვალზე დახარჯულ დროს
