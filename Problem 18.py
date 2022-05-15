@@ -18,6 +18,7 @@ matrix =[
 
 
 
+
 for i in range(len(matrix)-1,-1,-1):
 	for j in range(0,i): 
               matrix[i-1][j] += (max(matrix[i][j],matrix[i][j+1])) 
