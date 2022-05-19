@@ -1,4 +1,3 @@
-
 from itertools import permutations  
 import time   #  შემოგვყავს ტაიმერი რათა დავითვალოთ გამოთვლაზე დახარჯული დრო
 start = time.time() 
