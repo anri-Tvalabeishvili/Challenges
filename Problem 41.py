@@ -37,6 +37,8 @@ print("Calculation time:" , time.time() -start)     # ვპრინტავ�
 """ 
 
 Pandigital = '123456789'
+stop = False
+
 
 for i in range(8):
     P9 = list(permutations(Pandigital))
@@ -52,8 +54,10 @@ for i in range(8):
         
         if isprime(int(number)):
             print(number)
+            stop = True
             break
-
+    if stop :
+        break
 
 """
         
