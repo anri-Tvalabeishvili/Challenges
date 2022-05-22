@@ -23,11 +23,9 @@
 - This project is built using `Python (3.9.4)` version.
 - Libraries used:
 
-    `Pandas (1.4.2)`
-
     `Numpy (1.22.3)`
     
-    `Sympy (1.22.3)`
+    `Sympy (1.10.1)`
 
     
 
