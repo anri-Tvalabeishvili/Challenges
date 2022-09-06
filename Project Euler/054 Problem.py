@@ -272,7 +272,7 @@ def winner_value(palyer_card):
 
 
 
-f = open('Data/Problem_54.txt', 'r')   # შემოგვყავს ფაილი
+f = open('Data/Project Euler/Problem_54.txt', 'r')   # შემოგვყავს ფაილი
 
 content = f.read()  # ფაილის ელემენტს ვინახავთ ცვლადში
 
