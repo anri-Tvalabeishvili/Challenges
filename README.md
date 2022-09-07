@@ -1,4 +1,4 @@
-# Project Euler Solutions
+# Mathematical programming challenges
 
 ## 💡 Each task has a built-in timer that counts down the time of calculation. To better understand the code please download it and run it in any code editor
 
