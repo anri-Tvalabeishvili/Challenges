@@ -13,7 +13,7 @@
 
 
 ## 🗂️ Data sources <a name="Data_sources"></a>
-- The original tasks uploaded online, to find them please go to [Project Euler](https://projecteuler.net/archives) and find the task you need.
+- The original tasks uploaded online, to find them please go to [Project Euler](https://projecteuler.net/archives),[HackerRank](https://www.hackerrank.com/dashboard),[CodeWars](https://www.codewars.com/dashboard),[leetCode](https://leetcode.com/) and find the task you need.
 
 
 
