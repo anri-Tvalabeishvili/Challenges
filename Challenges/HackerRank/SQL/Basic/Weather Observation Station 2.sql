@@ -1,0 +1,2 @@
+SELECT CONVERT(decimal(20,2), SUM(LAT_N)), CONVERT(decimal(20,2), SUM(LONG_W)) FROM STATION;
+
